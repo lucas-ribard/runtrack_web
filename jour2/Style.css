@@ -1,0 +1,84 @@
+/*
+on m'a demander de faire du style avec css, pas de faire un site plaisant a visiter
+*/
+
+table,
+td {
+    border: 1px solid #333;
+    background-color: aliceblue;
+}
+
+a:visited {
+    color: aquamarine;
+    text-decoration-color: hotpink;
+    font-weight: bolder;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://media.tenor.com/TmnGJY6aMq8AAAAC/among-us-orange-justice.gif");
+    background-size: cover;
+}
+
+header {
+    margin-top: 0;
+    color: white;
+}
+
+form {
+    border: 15px solid blue ;
+    border-radius: 25% 58% 25% 100% ;
+    background-color: pink;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+#star {
+    float: right;
+}
+
+table {
+    float: right;
+    margin-right: 10%;
+}
+
+.rainbow-background{
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    animation: rainbow 8s ease infinite;
+}
+
+
+
+.rainbow-text {
+    background-image: repeating-linear-gradient(45deg, green, red, blue, violet, yellow, orange, indigo, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    animation: rainbow 8s ease infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 25%
+    }
+
+    10% {
+        background-position: 10% 50%
+    }
+
+    25% {
+        background-position: 0% 25%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
