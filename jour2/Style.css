@@ -14,6 +14,10 @@ a:visited {
     font-weight: bolder;
 }
 
+a:hover{
+  color:indianred
+}
+
 body {
     margin: 0;
     background-image: url("https://media.tenor.com/TmnGJY6aMq8AAAAC/among-us-orange-justice.gif");
@@ -35,11 +39,17 @@ form {
 
 #star {
     float: right;
+    
+}
+#star:hover{
+    transition: 10s;
+    transform: rotate(360000deg);
 }
 
 table {
     float: right;
     margin-right: 10%;
+    
 }
 
 .rainbow-background{
@@ -47,6 +57,7 @@ table {
     text-align: center;
     background-size: 800% 800%;
     animation: rainbow 8s ease infinite;
+    
 }
 
 
@@ -81,4 +92,15 @@ table {
     100% {
         background-position: 0% 50%
     }
+}
+.bt{
+    width: 50%;
+}
+
+.bt:hover{
+    background-color: red;
+    color:blue;
+
+    transition: 10s;
+    transform: rotate(360000deg);
 }
